@@ -1,0 +1,102 @@
+<DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="UTF-8">
+            <title> diploma|dox </title>
+            <link rel="stylesheet" href ='style.css'>
+            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        </head>
+        <body>
+            
+            <div class="sidebar">
+                <div class="logo_content">
+                    <div class="logo">
+                        <div class="logo_name">dip|dox</div>
+                    </div>  
+                    <i class='bx bx-menu' id = 'btn'></i> 
+                </div>
+            
+            <ul class="nav_list">
+                <li>
+                    <a href='/DIPDOX/project/slidebar/home.php'>
+                        <i class='bx bx-home-circle'></i>
+                        <span class="links_name">Home</span>
+                    </a>
+    
+                </li>
+                <li>
+                    <a href='\DIPDOX\project\syllabus\slidebar\syll.php'>
+                        <i class='bx bx-grid-alt'></i>
+                        <span class="links_name">Syllabus</span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href='\DIPDOX\project\textbook_poratal\slidebar\syll.php'>
+                        <i class='bx bx-book' ></i>
+                        <span class="links_name">Text book</span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href='/DIPDOX/project/student_portal/stud_dash.php'>
+                        <i class='bx bx-book-open'></i>
+                        <span class="links_name">notes</span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href='\DIPDOX\project\qps\slidebar\syll.php'>
+                        <i class='bx bx-folder-open' ></i>
+                        <span class="links_name">QPs</span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="\DIPDOX\project\elearning\home.html">
+                        <i class='bx bx-link-alt' ></i>
+                        <span class="links_name">E-learning</span>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href='\DIPDOX\project\project module\e_home.php'>
+                        <i class='bx bx-bulb' ></i>
+                        <span class="links_name">Projects</span>
+                    </a>
+                   
+                </li>
+                <!-- <li>
+                    <a href='/DIPDOX/project/teacher/login/login_form.php'>
+                        <i class='bx bx-user-circle' ></i>
+                        <span class="links_name">Teacher</span>
+                    </a>
+                   
+                </li> -->
+                <!-- <li>
+                    <a href='#'>
+                        <i class='bx bx-user' ></i>
+                        <span class="links_name">Admin</span>
+                    </a>
+                   
+                </li> -->
+                <li>
+                    <a href="/DIPDOX/project/aboutus/about.php">
+                        <i class='bx bx-pen' ></i>
+                        <span class="links_name">About us</span>
+                    </a>
+                    
+                </li>
+            </ul>
+        </div>
+        
+        <script>
+            let btn = document.querySelector("#btn");
+            let sidebar = document.querySelector(".sidebar");
+            
+            btn.onclick = function(){
+                sidebar.classList.toggle("active");
+            }
+        </script>
+        </body>
+    </html>

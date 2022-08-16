@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
+
+
+*{
+
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-color: #0d131d;
+}
+
+.info{
+    background: #101527;
+    color: rgb(195, 221, 255);
+   
+    border-radius: 10px;
+    height: 90%;
+    width: 65%;
+    padding: 25px;
+    
+}
+.info h1{
+    
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 30px;
+}
+.info h6{
+    margin: 0;
+}
+.info ul{
+    margin-top: 10px;
+    
+}
+.info li{
+    position: relative;
+    height: 50px;
+    width: 50%;
+    margin: 0 0px;
+    margin-bottom: 5px;
+    list-style: none;
+    line-height: 50px;
+    border-radius: 8px;
+}
+
+.info ul li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #343c42;
+}
+.info ul li a:hover{
+    color: #95c3f7;
+    background: rgb(72, 82, 97);
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+.image{
+    margin-left: 30%;
+    top: 55%;
+}
+.image img{
+    top: 37%;
+    right: 17%;
+    position: absolute;
+    height: 36%;
+    width: auto;
+}

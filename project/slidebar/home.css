@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
+
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    
+}
+  
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #070911;
+}
+
+.home_content{
+    margin-top: 5%;
+    background: #101527;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 80%;
+    width: 72%;
+    padding: 25px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 0 2px 8px 0 #000000, 0 3px 2px 0 #000000;
+}
+
+.home_content .info p1{
+    margin-top: 40px;
+    color: rgb(75, 149, 214);
+    font-size: 25px;
+    font-weight: 7;   
+}
+
+.home_content .info p1{
+    font-size: 15px;
+}
+.info img{
+    height: 50%;
+    position: relative;
+    margin-bottom: 10%;
+}
+/* From uiverse.io by @cuatrofender */
+button {
+    border: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: rgb(181, 218, 244);
+    background: rgba(0, 0, 0, 0.02);
+    border: solid 1px rgba(72, 118, 148, 0.561);
+    padding: 10px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+   }
+   
+   button:before {
+    content: "» ";
+    opacity: 0;
+    margin-left: -15px;
+    transition-duration: 0.2s;
+   }
+   
+   button:hover:before {
+    margin-left: 0px;
+    opacity: 1;
+   }
+   
+   button:hover {
+    background: rgb(129, 243, 152);
+    color: #012238;
+    font-weight: 300;
+    border: solid 1px gainsboro;
+   }

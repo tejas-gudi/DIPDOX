@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    
+}
+body {
+    background-image: url("DDOX.jpg");
+    background-color: #01040b;
+    background-size:     cover;      
+    background-repeat:   no-repeat;      
+}
+
+.selection h1{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50px;
+    font-weight: 10px;
+    color: rgb(103, 145, 221);
+}
+.box1{
+    height: 200px;
+    width: 500px;
+    background: #101527;
+    color: rgb(195, 221, 255);
+    font-weight: 400px;
+    top: 70%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.box2{
+    height: 200px;
+    width: 500px;
+    background: #101527;
+    color: rgb(195, 221, 255);
+    font-weight: 400px;
+    top: 70%;
+    right: 0%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.box1 a{
+    background: rgba(63,94,251,1);
+    color: #fff;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    white-space: nowrap;
+    width: 30%;
+    height: 40%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.box1 a:hover{
+    color: #ffffff;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.box2 a{
+    background: rgba(63,94,251,1);
+    color: #fff;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    white-space: nowrap;
+    width: 30%;
+    height: 40%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.box2 a:hover{
+    color: #ffffff;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.info{
+    position: absolute;
+    background: #101527;
+    color: #fff;
+    display:inline;
+    align-items: center; 
+    justify-content: center;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    width: 70%;
+    height: 100%;
+    margin-left: 14%;
+    margin-top: 30%;
+    padding: 40px;
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.info p{ 
+    text-indent: 5em;
+    font-size: 17px;
+    margin-bottom: 8%;
+}
+.info h1{
+    text-indent: 10em;
+    color: #fff;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.info h2{
+    text-indent: 20em;
+    color: #fff;
+    top: 10%;
+    align-items: center; 
+    justify-content: center;
+}
+.info img{
+    position: absolute;
+    height: 56%;
+    left: 45%;
+    top: 10%;
+}
+a
+{
+    margin-top: 0%;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #a9cfee;
+}
+
+a:hover
+{
+    color: rgb(31, 255, 11);
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
+
+*{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background: #f5f5f5;
+    background-image: linear-gradient(150deg, #8ba4ffc8 20%, #61a1b0 90%);
+}
+.box1{
+    height: 350px;
+    width: 700px;
+    background: #131d30;
+ 
+    color: #fff;
+    font-weight: 400;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.box2{
+    height: 200px;
+    width: 700px;
+    background: #131d30;
+
+    color: #fff;
+    font-weight: 400;
+    top: 78%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.box2 h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50x;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(219, 149, 149);
+}
+input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    top: 10%;
+    left: 18%;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 318px;
+    color: #000000;
+    background-color: #ededed;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.button input{
+    display: none;
+}
+
+.button label{
+    padding: 10px;
+    background: rgb(1, 67, 97); 
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 360px;
+    top: 10%;
+    left: 18%;
+    }
+
+
+.submit input{
+   display: none;
+}
+    
+.submit label{
+    padding: 10px;
+    background: rgb(1, 67, 97); 
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 360px;
+    top: 10%;
+    left: 18%;
+}
+
+
+.image img{
+    height: 350px;
+    width: auto;
+    right: 0px;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
