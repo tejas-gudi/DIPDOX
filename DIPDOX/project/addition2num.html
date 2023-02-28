@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <title>addition of 2 numbers</title>
+        
+    </head>
+    <body>
+        a = <input type="text" id="a">        
+        b = <input type="text" id="b"><br/>
+        <button onclick="add();">add</button>
+        sum = <input type="text" id = "c">
+        <script type="text/javascript">
+            function add(){
+                a = Number(document.getElementById("a").value);
+                b = Number(document.getElementById("b").value);
+                document.getElementById("c").value = a+b;
+                console.log("a =",a);
+                console.log("b =",b);
+                console.log("a + b =",a + b);
+            }
+            arr=[5,7,9,8,6,5];
+            console.log("sum of array elements =",addArr(arr));
+            function addArr(arr){
+                sum = 0;
+                for(i in arr){                  //for(i=0; i < arr.length; i++) = for(i in arr) 
+                    sum = sum +arr[i];
+                }
+                return sum;
+            }
+            sum2 = 0;
+            arr2=[10,20,30,40,50];
+            for(i in arr2){
+                sum2 +=arr2[i];
+            }
+            console.log("sum of elements of 2nd array =",sum2);
+        </script>
+    </body>
+</html>

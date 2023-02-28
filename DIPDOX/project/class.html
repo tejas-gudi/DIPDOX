@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CLASS</title>
+    <script type="text/javascript">
+        class items{
+            constructor(itemName, cost){
+                this.itemName = itemName;
+                this.cost = cost;
+            }
+            show(){
+                document.write("Item name : "+this.itemName+" <br/>Cost : "+this.cost+"<br/><br/>");
+            }
+        }
+        let item1 = new items("rice", "60");
+            let item2 = new items("wheat", "50");
+            let item3 = new items("daal", "70");
+            item1.show();
+            item2.show();
+            item3.show();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

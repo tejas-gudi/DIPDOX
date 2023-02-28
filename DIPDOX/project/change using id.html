@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>change with class</title>
+</head>
+<body>
+    <h2 class="abc">$$$$$$$$$</h2>
+    <p class="abc">
+        hi, welcome to PES.
+    </p>
+    <p class="abc">
+        hi, how are you.
+    </p>
+    <button onclick="change();">click to change</button>
+    <script type="text/javascript">
+            function change(){
+                const para = document.getElementsByClassName("abc");
+                para[0].innerHTML=".....";  
+                para[1].innerHTML="-----";
+                para[1].style.color="red";
+                para[2].style.color="red";
+                const tagname = document.getElementsByTagName(h2);
+                tagname[0].style.color="red";
+            } 
+    </script>
+</body>
+</html>

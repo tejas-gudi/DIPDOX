@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <title>@media tag</title>
+        <style>
+            body{
+                background-color: blue;
+            }
+            p{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: larger;
+                color: yellow;
+                border: 5px;    
+            }
+            @media only screen and (max-width : 600px) {
+                body{
+                    background-color: red;
+                }
+                p{
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-size: small;
+                    color: white;
+                    border: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <p>this is the use of @media tag to change website properties when the screen size changes</p>
+    </body>
+</html>

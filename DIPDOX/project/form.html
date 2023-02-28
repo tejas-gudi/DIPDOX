@@ -1,0 +1,64 @@
+<html>
+    <body>
+        <center><h1>FORMS</h1>
+        <form method = "POST" action = "">
+            <br/><lable>Name</lable>  <input type ="text" name = "t1">
+            <br/><br/><lable>Password</lable>  <input type ="password" name = "p1">
+            <br/><br/><lable>Address</lable>  <textarea></textarea>
+            <br/><br/><lable>Gender</lable><input type = "radio" name="gender" value="male"/>MALE
+            <input type = "radio" name="gender" value="female"/>FEMALE
+            <br/><br/><lable>AGE GROUP</lable><input type = "radio" name="ag" value="0-10"/>0 to 10
+            <input type = "radio" name="ag" value="11-30"/>11 to 30
+            <br/>
+            <br/>
+            <lable><b>Subjects  </b></lable><input type ="checkbox" name="sub" value="WT"/>WT
+            <input type ="checkbox" name="sub" value="DDCO"/>DDCO
+            <input type ="checkbox" name="sub" value="DSA"/>DSA
+            <br/>
+            <br/>
+            <select name="menu">
+                <option value="milkshake">milkshake</option> 
+                <option value="fruit-salad">fruit salad</option>
+                <option selected value="juice">juice</option> <!--selected is used to select a default option from dropdown menu-->
+                <option value="chips">chips</option>                
+            </select>
+            <br/>
+            <br/>
+            <select name="menu2" multiple><!--multiple is used to view/get all elements of drop down at once-->
+                <option value="milkshake">milkshake</option> 
+                <option value="fruit-salad">fruit salad</option>
+                <option value="juice">juice</option>
+                <option value="chips">chips</option>                
+            </select>
+            
+            <br/>
+            <br/>
+            URL : <input type="url" name="url">
+            <br/>
+            <br/>
+            COLOR : <input type="color" name="color">
+
+            <br/>
+            <br/>
+            RANGE : <input type="range" name="range" min="0" max="10" value="2">
+
+            <br/>
+            <br/>
+            FILE : <input type="file" name="file">
+
+            <br/>
+            <br/>
+            NUMBER : <input type="number" name="number" min="1" max="10" value="1">
+            <br/>
+            <br/>
+            MOBILE NUMBER : <input type="tel" name="tel" pattern="[0-9]{10}">
+            <input type="text" name="tele" pattern="[0-9]{10}">
+            <br/>
+            <br/>
+            Email : <input type="email" name="mail"><!--inut of type email checks the entered input for email format-->
+            <br/>
+            <br/><input type = "submit" value = "SUBMIT"> <input type = "reset" value = "RESET"> <input type="button" value="my button">
+
+        </form></center>
+    </body>
+</html>

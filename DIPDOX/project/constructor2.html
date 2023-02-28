@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>constructer 2</title>
+    <script type="text/javascript">
+        function details(fname, lname, pno, city){
+            this.fname = fname;
+            this.lname = lname;
+            this.pno = pno;
+            this.city = city;
+        }
+
+        details.prototype.show = function(){
+            document.write("<h1>"+this.fname+" "+this.lname+" "+this.pno+" "+this.city+"</h1><br/>");
+        }
+
+        let detail1 = new details("Abc", "Def", 9988776655, "Ghi");
+        let detail2 = new details("Jkl", "Mno", 9988776655, "Pqr");
+        let detail3 = new details("Stu", "Vwx", 9988776655, "Yz");
+        detail1.show();
+        detail2.show();
+        detail3.show();
+        </script>
+</head>
+<body>
+    
+</body>
+</html>

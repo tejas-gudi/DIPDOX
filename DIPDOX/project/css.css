@@ -1,0 +1,61 @@
+html:hover{
+    color:blueviolet;
+}
+body{
+    background-color: bisque;
+    margin-left: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cls1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+    font-style: oblique;
+    -size: 25px;
+    border-style:dashed;
+}
+
+#PES:hover{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    border-width: 7px;
+    border-color: black;
+    border-style: double;
+}
+.cls2{
+    border-style: dotted;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+#PES{
+    border:5px;
+}
+.cls3{
+    font-size: 25px;
+    border-style:solid;
+    position:relative;
+    top:-50px;
+    left:20px;
+}
+.cls4{
+    color:black;
+    font-size: 30px;
+    border-style: solid;
+    position: relative;
+    top:10px;
+}
+.cls5{
+    color:black;
+    font-size: 30px;
+    position: relative;
+    top:-40px;
+}
+.cls6{
+    position:fixed;
+    top:10px;
+    right:10%;
+    border-style: groove;
+}
+.sticky{
+    position:sticky;
+    top:10px;
+}

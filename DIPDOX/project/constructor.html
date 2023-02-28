@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dynamic alloction of variable values</title>
+    <script type="text/javascript">
+        function item(name, age, sem){
+            this.name = name;
+            this.age = age;
+            this.sem = sem;
+        }
+        let item1 = new item("abc", 20, 3);
+        let item2 = new item("def", 21, 4);
+        let item3 = new item("ghi", 22, 5);
+        item.prototype.sho = function(){
+            document.write(this.name+" "+this.age+" "+this.sem+"<br/>");
+        }
+
+        item1.sho();
+        item2.sho();
+        item3.sho();
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

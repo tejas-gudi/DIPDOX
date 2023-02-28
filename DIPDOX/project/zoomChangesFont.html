@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>div tag</title>
+    <style>
+        div.example{
+            background-color: burlywood;
+            padding: 20px;
+        }
+        @media screen and (min-width: 100px) {
+            div.example{
+                font-size: 120px;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+        @media screen and (min-width: 200px) {
+            div.example{
+                font-size: 110px;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+        @media screen and (min-width: 300px) {
+            div.example{
+                font-size: 100px;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+        @media screen and (min-width: 400px) {
+            div.example{
+                font-size: 90px;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+        @media screen and (min-width: 500px) {
+            div.example{
+                font-size: 80px;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+        @media screen and (min-width: 600px) {
+            div.example{
+                font-size: 70px;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        }
+        @media screen and (max-width: 700px) {
+            div.example{
+                font-size: 60px;
+            }
+            body{
+                background-color:cadetblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>change the font size of an element on different screen sizes</p>
+    <div class="example">Example DIV.</div>
+</body>
+</html>
